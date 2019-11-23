@@ -500,11 +500,11 @@ footer > div {
 
 @media screen and (max-width: 670px) {
   header {
-    padding: 0 1rem 2.5rem 1rem;
+    padding: 0 1rem 1rem 1rem;
   }
 
   .header__image {
-    width: 19rem;
+    width: 16rem;
     right: 0.5rem;
   }
 
@@ -527,4 +527,94 @@ footer > div {
     width: 40%;
   }
 
+}
+
+@media screen and (max-width: 550px) {
+  
+  .header__content{
+    margin-top: 2.5rem;
+  }
+
+  .header__image{
+    display: none;
+  }
+
+  .header__content{
+    padding-left: 2rem;
+  }
+
+  
+  .header__title span {
+    font-size: 1.1rem;
+  }
+
+  .header__title strong {
+    font-size: 1.7rem;
+  }
+  .header__title h1 {
+    font-size: 2rem;
+  }
+
+  .separator{
+    padding: 1.5rem 1rem;
+    justify-content: center;
+  }
+  .separator img{
+    margin: 0;
+  }
+
+  .main__rigth video{
+    margin-top: 1.5rem;
+  }
+
+  .form__title{
+    margin-top: 4.3rem;
+  }
+  .form-container{
+    flex-flow: wrap;
+  }
+  form{
+    width: 80%;
+    margin-top: 1rem;
+  }
+  
+}
+
+
+@media screen and (max-width: 450px) {
+
+  .main__left .title{
+    width: 90%;
+  }
+
+  .separator h3{
+    font-size: .8rem;
+  }
+
+  .separator img{
+    width: 10rem;
+  }
+}
+@media screen and (max-width: 370px) {
+
+  main > div{
+    padding: 4.3rem 1rem 4rem 2rem;
+  }
+
+  .main__rigth video{
+        width: 17rem
+  
+  }
+
+  .main__left ul{
+    margin-left: 3rem;
+  }
+  .form__title h3{
+    font-size: 1.5rem;
+  }
+  .form__title img{
+    font-size: 6.8rem;
+    right: 2.5rem;
+    bottom: 2rem;
+  }
 }
